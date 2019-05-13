@@ -6,13 +6,13 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: 123456
-    url: jdbc:mysql://47.97.100.155:3306/springbootdb?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    password: root
+    url: jdbc:mysql://192.168.245.10:3306/pig?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
 
 zipkin:
   collector:
     rabbitmq:
-      addresses: 47.97.100.155:5672
+      addresses: 192.168.245.10:5672
       password: myuser
       username: mypass
       queue: zipkin

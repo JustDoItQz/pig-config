@@ -12,7 +12,7 @@ spring:
   redis:
     remote: false        #cachecloud 获取
     host: 192.168.245.10
-    port: 32768
+    port: 32769
     password:
   rabbitmq:
     host: 192.168.245.10

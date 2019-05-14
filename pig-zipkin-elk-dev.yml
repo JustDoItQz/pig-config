@@ -5,8 +5,8 @@ zipkin:
   collector:
     rabbitmq:
       addresses: 192.168.245.10:5672
-      password: myuser
-      username: mypass
+      password: admin
+      username: admin
       queue: zipkin
   storage:
     type: elasticsearch

@@ -12,7 +12,7 @@ zipkin:
     type: elasticsearch
     elasticsearch:
       hosts: 192.168.245.10:9200
-      cluster: elasticsearch
+      cluster: docker-cluster
       index: zipkin
       max-requests: 64
       index-shards: 5
